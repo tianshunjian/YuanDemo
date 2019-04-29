@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Yuan</string>
+    <string name="app_show_version">V 1.0</string>
+    <string name="downloading_new_version">正在下载新版本</string>
+    <string name="download_failed_try_again">下载失败，请重试</string>
+    <string name="download_failed_reminder_title">提示</string>
+    <string name="download_failed_reminder_message">下载出现异常，请重新下载</string>
+    <string name="download_failed_reminder_dialog_positive_button">确定</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="4qb-5f-INj">
+            <objects>
+                <viewController id="MdI-Bj-08s" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7RJ-AT-RFP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="54b-Ee-7lf">
+                                <rect key="frame" x="170" y="371" width="74" height="74"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hello Yuan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MyU-dX-Yid">
+                                <rect key="frame" x="167.5" y="457.5" width="79" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="V 1.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g63-ej-eF2">
+                                <rect key="frame" x="188.5" y="831" width="37" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="54b-Ee-7lf" firstAttribute="centerX" secondItem="7RJ-AT-RFP" secondAttribute="centerX" id="7cu-ur-bmz"/>
+                            <constraint firstItem="MyU-dX-Yid" firstAttribute="centerX" secondItem="7RJ-AT-RFP" secondAttribute="centerX" id="IAO-Bq-5BH"/>
+                            <constraint firstItem="g63-ej-eF2" firstAttribute="centerX" secondItem="7RJ-AT-RFP" secondAttribute="centerX" id="Ree-J7-BMr"/>
+                            <constraint firstItem="GYG-W7-i0G" firstAttribute="bottom" secondItem="g63-ej-eF2" secondAttribute="bottom" constant="10" id="YaZ-6f-B6b"/>
+                            <constraint firstItem="MyU-dX-Yid" firstAttribute="centerY" secondItem="7RJ-AT-RFP" secondAttribute="centerY" constant="20" id="cEX-hy-Hk9"/>
+                            <constraint firstItem="54b-Ee-7lf" firstAttribute="centerY" secondItem="7RJ-AT-RFP" secondAttribute="centerY" constant="-40" id="pdX-dS-Brc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="GYG-W7-i0G"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="msZ-J2-MKq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="148" y="-125"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="74" height="74"/>
+    </resources>
+</document>

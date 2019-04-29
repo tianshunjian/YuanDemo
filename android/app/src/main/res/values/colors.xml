@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+十六进制透明度参照表:
+00%=FF（不透明）    5%=F2    10%=E5    15%=D8    20%=CC    25%=BF    30%=B3    35%=A5    40%=99    45%=8c    50%=7F
+55%=72    60%=66    65%=59    70%=4c    75%=3F    80%=33    85%=21    90%=19    95%=0c    100%=00（全透明）
+-->
+<resources>
+    <color name="colorPrimary">@color/MC1</color>
+    <color name="colorPrimaryDark">@color/MC1</color>
+    <color name="colorAccent">@color/MC1</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#00FF00</color>
+    <color name="main_bg">@color/MC6</color>
+    <color name="transparent">#00000000</color>
+
+
+    <color name="MC1">#C8102E</color>
+    <color name="MC2">#9B9B9B</color>
+    <color name="MC3">#7FC8102E</color>
+    <color name="MC4">#E0002B</color>
+    <color name="MC5">#d8d8d8</color>
+    <color name="MC6">#F7F7F7</color>
+    <color name="MC7">#E6E6EB</color>
+    <color name="MC8">#0A0A0A</color>
+    <color name="MC9">#FFECECEC</color>
+    <color name="MC10">#FF4A4A4A</color>
+
+
+
+
+    <color name="whiteP">#F0F0F0</color>
+    <color name="MC1P">@color/MC3</color>
+
+
+
+
+</resources>
